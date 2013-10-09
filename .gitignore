@@ -1,0 +1,7 @@
+.project
+.settings
+.DS_Store
+/septima_ignore.xml
+/septima_modules_ignore.xml
+/modules/septima_test
+.idea/
