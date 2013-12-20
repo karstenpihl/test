@@ -2,5 +2,6 @@
 .settings
 .DS_Store
 .idea/
+.grunt
 /node_modules
 /dist/*
