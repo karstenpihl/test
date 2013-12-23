@@ -1,4 +1,4 @@
-/* Septima Widget - VERSION 0.3.0-2 - build 23-12-2013 */
+/* Septima Widget - VERSION 0.3.0-3 - build 23-12-2013 */
 function test1 () {
     alert(123);
 };function test2 () {
