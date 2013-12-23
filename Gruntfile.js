@@ -42,10 +42,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
-
+  grunt.loadNpmTasks('grunt-bump');
 
   grunt.registerTask('default', ['concat','gh-pages:test']);
 
-  grunt.registerTask('publish', ['concat','gh-pages:gh-pages']);
+  grunt.registerTask('test', ['bump-only']);
+
+  grunt.registerTask('publish', ['bump:build:bump-only','concat','gh-pages:gh-pages']);
   
 };
